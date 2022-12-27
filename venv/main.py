@@ -8,5 +8,15 @@ screen.addshape(image)
 
 turtle.shape(image)
 
+answer_state = screen.textinput(title ="Guess the State", prompt = "What's another state's name?")
 
-screen.exitonclick()
+
+
+# def get_mouse_click_coor(x, y):
+#     print(x, y)
+#
+# turtle.onscreenclick(get_mouse_click_coor)
+#
+# turtle.mainloop()
+
+# screen.exitonclick()
